@@ -22,44 +22,469 @@ except ImportError:
 # 🔧 CONFIGURAÇÕES QUE VOCÊ MUDA A CADA EXECUÇÃO
 # ============================================================
 
-NOME_DO_GRUPO = "guy"
-HASHTAGS_DO_GRUPO = ['guyaesthetic','guyaestheticvibes','guyaestheticedit','guyaestheticstyle','guyaesthetictok','guyaestheticgirl','guyaestheticfashion','guyaestheticinspo','guyaestheticlifestyle','guyaestheticroom','whatisguyaesthetic'
+NOME_DO_GRUPO = "digitalcamera"
+HASHTAGS_DO_GRUPO = ['digitalcameraaesthetic','digitalcameraaesthetic','digitalcameraaestheticvibes','digitalcameraaestheticedit','digitalcameraaestheticstyle','digitalcameraaesthetictok','digitalcameraaestheticgirl','digitalcameraaestheticfashion','digitalcameraaestheticinspo','digitalcameraaestheticlifestyle','digitalcameraaestheticroom','whatisdigitalcameraaesthetic','DigitalCameraAesthetic'
 
     ]
 
-ARQUIVO_SAIDA = "guy.csv"
+ARQUIVO_SAIDA = "digitalcamera.csv"
 
-#'guyaesthetic','guyaestheticvibes','guyaestheticedit','guyaestheticstyle','guyaesthetictok','guyaestheticgirl','guyaestheticfashion','guyaestheticinspo','guyaestheticlifestyle','guyaestheticroom','whatisguyaesthetic'
-#'moodyaesthetic','moodyaestheticvibes','moodyaestheticedit','moodyaestheticstyle','moodyaesthetictok','moodyaestheticgirl','moodyaestheticfashion','moodyaestheticinspo','moodyaestheticlifestyle','moodyaestheticroom','whatismoodyaesthetic'
-#'oldmoneyaesthetic','oldmoneyaestheticvibes','oldmoneyaestheticedit','oldmoneyaestheticstyle','oldmoneyaesthetictok','oldmoneyaestheticgirl','oldmoneyaestheticfashion','oldmoneyaestheticinspo','oldmoneyaestheticlifestyle','oldmoneyaestheticroom','whatisoldmoneyaesthetic'
-#'aestheticeditm','aestheticeditmvibes','aestheticeditmedit','aestheticeditmstyle','aestheticeditmtok','aestheticeditmaesthetic','aestheticeditmgirl','whatisaestheticeditm'
-#'countryaesthetic','countryaestheticvibes','countryaestheticedit','countryaestheticstyle','countryaesthetictok'.'countryaestheticgirl','countryaestheticfashion'.'countryaestheticinspo','countryaestheticlifestyle','countryaestheticroom','whatiscountryaesthetic'
-#'dirtygirlaesthetic','dirtygirlaestheticvibes','dirtygirlaestheticedit','dirtygirlaestheticstyle','dirtygirlaesthetictok'.'dirtygirlaestheticgirl','dirtygirlaestheticfashion','dirtygirlaestheticinspo','dirtygirlaestheticlifestyle','dirtygirlaestheticroom','whatisdirtygirlaesthetic'
-#'richaesthetic','richaestheticvibes','richaestheticedit','richaestheticstyle','richaesthetictok','richaestheticgirl','richaestheticfashion','richaestheticinspo','richaestheticlifestyle','richaestheticroom','whatisrichaesthetic'
-#'2016aesthetic','2016aestheticvibes','2016aestheticedit','2016aestheticstyle','2016aesthetictok','2016aestheticgirl','2016aestheticfashion','2016aestheticinspo','2016aestheticlifestyle','2016aestheticroom','whatis2016aesthetic'
-#'darkcoquetteaesthetic','darkcoquetteaestheticvibes','darkcoquetteaestheticedit','darkcoquetteaestheticstyle','darkcoquetteaesthetictok','darkcoquetteaestheticgirl','darkcoquetteaestheticfashion','darkcoquetteaestheticinspo','darkcoquetteaestheticlifestyle''darkcoquetteaestheticroom','whatisdarkcoquetteaesthetic'
-#'cleangirlaesthetic','cleangirlaestheticvibes','cleangirlaestheticedit','cleangirlaestheticstyle','cleangirlaesthetictok','cleangirlaestheticgirl','cleangirlaestheticfashion','cleangirlaestheticinspo','cleangirlaestheticlifestyle','cleangirlaestheticroom','whatiscleangirlaesthetic'
-#'moruteaesthetic','moruteaestheticvibes','moruteaestheticedit','moruteaestheticstyle','moruteaesthetictok','moruteaestheticgirl','moruteaestheticfashion','moruteaestheticinspo','moruteaestheticlifestyle','moruteaestheticroom','whatismoruteaesthetic'
-#'80saesthetic','80saestheticvibes','80saestheticedit','80saestheticstyle','80saesthetictok','80saestheticgirl'.'80saestheticfashion','80saestheticinspo','80saestheticlifestyle','80saestheticroom','whatis80saesthetic'
-#'colorfulaesthetic','colorfulaestheticvibes','colorfulaestheticedit','colorfulaestheticstyle','colorfulaesthetictok','colorfulaestheticgirl','colorfulaestheticfashion','colorfulaestheticinspo','colorfulaestheticlifestyle','colorfulaestheticroom','whatiscolorfulaesthetic
-#'pintrestaesthetic','pintrestaestheticvibes','pintrestaestheticedit','pintrestaestheticstyle','pintrestaesthetictok','pintrestaestheticgirl','pintrestaestheticfashion','pintrestaestheticinspo','pintrestaestheticlifestyle','pintrestaestheticroom','whatispintrestaesthetic'
-#'redaesthetic','redaestheticvibes','redaestheticedit','redaestheticstyle','redaesthetictok','redaestheticgirl','redaestheticfashion','redaestheticinspo','redaestheticlifestyle','redaestheticroom','whatisredaesthetic','RedAesthetic'
-#'lizzygrantaesthetic','lizzygrantaestheticvibes','lizzygrantaestheticedit','lizzygrantaestheticstyle','lizzygrantaesthetictok','lizzygrantaestheticgirl','lizzygrantaestheticfashion','lizzygrantaestheticinspo','lizzygrantaestheticlifestyle','lizzygrantaestheticroom','whatislizzygrantaesthetic','LizzyGrantAesthetic'
-#'autumnaesthetic','autumnaestheticvibes','autumnaestheticedit','autumnaestheticstyle','autumnaesthetictok','autumnaestheticgirl','autumnaestheticfashion','autumnaestheticinspo','autumnaestheticlifestyle','autumnaestheticroom','whatisautumnaesthetic','AutumnAesthetic
-#'oceanaesthetic','oceanaestheticvibes','oceanaestheticedit','oceanaestheticstyle','oceanaesthetictok','oceanaestheticgirl','oceanaestheticfashion','oceanaestheticinspo','oceanaestheticlifestyle','oceanaestheticroom','whatisoceanaesthetic','OceanAesthetic
-#'spaceaesthetics','spaceaestheticsvibes','spaceaestheticsedit','spaceaestheticsstyle','spaceaestheticstok','spaceaestheticsgirl','spaceaestheticsfashion','spaceaestheticsinspo','spaceaestheticslifestyle','spaceaestheticsroom','whatisspaceaesthetics','SpaceAesthetics'
-#'parisaesthetic','parisaestheticvibes','parisaestheticedit','parisaestheticstyle','parisaesthetictok','parisaestheticgirl','parisaestheticfashion','parisaestheticinspo','parisaestheticlifestyle','parisaestheticroom','whatisparisaesthetic'.'ParisAesthetic'
-#'novemberaesthetic','novemberaestheticvibes','novemberaestheticedit','novemberaestheticstyle','novemberaesthetictok','novemberaestheticgirl','novemberaestheticfashion','novemberaestheticinspo','novemberaestheticlifestyle',novemberaestheticroom','whatisnovemberaesthetic','NovemberAesthetic
-#'funkyaesthetic','funkyaestheticvibes','funkyaestheticedit','funkyaestheticstyle','funkyaesthetictok','funkyaestheticgirl','funkyaestheticfashion','funkyaestheticinspo','funkyaestheticlifestyle','funkyaestheticroom','whatisfunkyaesthetic','FunkyAesthetic
-#'vintageaesthetic','vintageaestheticvibes','vintageaestheticedit','vintageaestheticstyle','vintageaesthetictok','vintageaestheticgirl','vintageaestheticfashion','vintageaestheticinspo','vintageaestheticlifestyle','vintageaestheticroom','whatisvintageaesthetic','VintageAesthetic'
-#'redaesthetic','redaestheticvibes','redaestheticedit','redaestheticstyle','redaesthetictok','redaestheticgirl','redaestheticfashion','redaestheticinspo','redaestheticlifestyle','redaestheticroom','whatisredaesthetic','RedAesthetic'
-#'lizzygrantaesthetic','lizzygrantaestheticvibes','lizzygrantaestheticedit','lizzygrantaestheticstyle','lizzygrantaesthetictok','lizzygrantaestheticgirl','lizzygrantaestheticfashion','lizzygrantaestheticinspo','lizzygrantaestheticlifestyle','lizzygrantaestheticroom','whatislizzygrantaesthetic','LizzyGrantAesthetic'
-#'autumnaesthetic','autumnaestheticvibes','autumnaestheticedit','autumnaestheticstyle','autumnaesthetictok','autumnaestheticgirl','autumnaestheticfashion','autumnaestheticinspo','autumnaestheticlifestyle','autumnaestheticroom','whatisautumnaesthetic','AutumnAesthetic
-#'oceanaesthetic','oceanaestheticvibes','oceanaestheticedit','oceanaestheticstyle','oceanaesthetictok','oceanaestheticgirl','oceanaestheticfashion''oceanaestheticinspo','oceanaestheticlifestyle','oceanaestheticroom','whatisoceanaesthetic','OceanAesthetic'
-#'spaceaesthetics','spaceaestheticsvibes','spaceaestheticsedit','spaceaestheticsstyle','spaceaestheticstok','spaceaestheticsgirl','spaceaestheticsfashion','spaceaestheticsinspo','spaceaestheticslifestyle','spaceaestheticsroom','whatisspaceaesthetics','SpaceAesthetics'
-#'parisaesthetic','parisaestheticvibes','parisaestheticedit','parisaestheticstyle','parisaesthetictok','parisaestheticgirl','parisaestheticfashion','parisaestheticinspo','parisaestheticlifestyle','parisaestheticroom','whatisparisaesthetic','ParisAesthetic'
-#'novemberaesthetic','novemberaestheticvibes','novemberaestheticedit','novemberaestheticstyle','novemberaesthetictok','novemberaestheticgirl','novemberaestheticfashion','novemberaestheticinspo','novemberaestheticlifestyle','novemberaestheticroom','whatisnovemberaesthetic','NovemberAesthetic'
-#'funkyaesthetic','funkyaestheticvibes','funkyaestheticedit','funkyaestheticstyle','funkyaesthetictok','funkyaestheticgirl','funkyaestheticfashion','funkyaestheticinspo','funkyaestheticlifestyle','funkyaestheticroom','whatisfunkyaesthetic','FunkyAesthetic'
+
+##'2015aesthetic','2015aesthetic','2015aestheticvibes','2015aestheticedit','2015aestheticstyle'','2015aesthetictok','2015aestheticgirl','2015aestheticfashion','2015aestheticinspo','2015aestheticlifestyle','2015aestheticroom','whatis2015aesthetic'.'2015Aesthetic'
+#'rococoaesthetic', 'rococo', 'rococovibes','rococoaesthetic','rococoaestheticvibes','rococoaestheticedit','rococoaestheticstyle','rococoaesthetictok','rococoaestheticgirl','rococoaestheticfashion','rococoaestheticinspo','rococoaestheticlifestyle','rococoaestheticroom','whatisrococoaesthetic','RococoAesthetic'
+#'70saesthetic','70saesthetic','70saestheticvibes','70saestheticedit','70saestheticstyle','70saesthetictok','70saestheticgirl','70saestheticfashion','70saestheticinspo','70saestheticlifestyle'.'70saestheticroom','whatis70saesthetic','70sAesthetic'
+#'bathroomaesthetic','bathroomaesthetic','bathroomaestheticvibes','bathroomaestheticedit','bathroomaestheticstyle','bathroomaesthetictok''bathroomaestheticgirl','bathroomaestheticfashion','athroomaestheticinspo','bathroomaestheticlifestyle','bathroomaestheticroom','whatisbathroomaesthetic','BathroomAesthetic'
+#'rainyaesthetic','rainyaesthetic','rainyaestheticvibes','rainyaestheticedit','rainyaestheticstyle','rainyaesthetictok','rainyaestheticgirl''rainyaestheticfashion','rainyaestheticinspo','rainyaestheticlifestyle','rainyaestheticroom','whatisrainyaesthetic','RainyAesthetic'
+#'kawaiiaesthetic', 'kawaii','kawaiiaesthetic','kawaiiaestheticvibes','kawaiiaestheticedit','kawaiiaestheticstyle','kawaiiaesthetictok','kawaiiaestheticgirl','kawaiiaestheticfashion','kawaiiaestheticinspo','kawaiiaestheticlifestyle','kawaiiaestheticroom','whatiskawaiiaesthetic','KawaiiAesthetic'
+#'2019aesthetic','2019aesthetic','2019aestheticvibes','2019aestheticedit','2019aestheticstyle','2019aesthetictok''2019aestheticgirl','2019aestheticfashion','2019aestheticinspo','2019aestheticlifestyle','2019aestheticroom','whatis2019aesthetic','2019Aesthetic'
+#'gifaesthetic','gifaesthetic','gifaestheticvibes','gifaestheticedit','gifaestheticstyle','gifaesthetictok','gifaestheticgirl','gifaestheticfashion','gifaestheticinspo','gifaestheticlifestyle','gifaestheticroom','whatisgifaesthetic','GifAesthetic'
+#'aestheticbeach','aestheticbeach','aestheticbeachvibes','aestheticbeachedit','aestheticbeachstyle''aestheticbeachtok','aestheticbeachgirl','aestheticbeachfashion','aestheticbeachinspo','aestheticbeachlifestyle','aestheticbeachroom','whatisaestheticbeach''AestheticBeach'
+#'darkfemenineaesthetic', 'darkfeminine', 'darkfemininevibes', 'darkfemininetok', 'darkfeminineedit','darkfemenineaesthetic','darkfemenineaestheticvibes','darkfemenineaestheticedit','darkfemenineaestheticstyle','darkfemenineaesthetictok','darkfemenineaestheticgirl','darkfemenineaestheticfashion','darkfemenineaestheticinspo','darkfemenineaestheticlifestyle','darkfemenineaestheticroom','whatisdarkfemenineaesthetic','DarkFeminineAesthetic'
+#'dollette','dollette','dollettevibes','dolletteedit','dollettestyle','dollettetok','dolletteaesthetic','dollettegirl','dollettefashion','dolletteinspo','dollettelifestyle','dolletteroom','whatisdollette','Dollette'
+#'shoujogirl','shoujogirl','shoujogirlvibes','shoujogirledit','shoujogirlstyle','shoujogirltok','shoujogirlaesthetic','shoujogirlgirl','shoujogirlfashion','shoujogirlinspo','shoujogirllifestyle','shoujogirlroom','whatisshoujogirl','ShoujoGirl'
+#'thoughtdaughter','thoughtdaughter','thoughtdaughtervibes','thoughtdaughteredit','thoughtdaughterstyle','thoughtdaughtermtok','thoughtdaughteraesthetic','thoughtdaughtergirl','thoughtdaughterfashion','thoughtdaughterinspo','thoughtdaughterlifestyle','thoughtdaughterroom','whatisthoughtdaughter','ThoughtDaughter'
+#'altgirl','altgirl','altgirlvibes','altgirledit','altgirlstyle','altgirltok','altgirlaesthetic','altgirlgirl','altgirlfashion','altgirlinspo','altgirllifestyle','altgirlroom','whatisaltgirl','AltGirl'
+#'lightacademia','lightacademia','lightacademiavibes','lightacademiaedit','lightacademiastyle','lightacademiatok','lightacademiaaesthetic','lightacademiagirl','lightacademiafashion','lightacademiainspo','lightacademialifestyle','lightacademiaroom','whatislightacademia','LightAcademia'
+#'brat','brat','bratvibes','bratedit','bratstyle','brattok','brataesthetic','bratgirl','bratfashion','bratinspo ,   bratlifestyle   ,   bratroom    ,   whatisbrat  ,   Brat'
+#'liminalspace','liminalspace','liminalspacevibes','liminalspaceedit','liminalspacestyle','liminalspacetok','liminalspaceaesthetic','liminalspacegirl','liminalspacefashion','liminalspaceinspo','liminalspacelifestyle','liminalspaceroom','whatisliminalspace','LiminalSpace'
+
+
+
+coquette_hashtags = [
+    "coquette",
+    "coquettecore",
+    "coquetteaesthetic",
+    "coquettevibes",
+    "coquetteedit",
+    "coquettestyle",
+    "coquettetok",
+    "coquettetiktok",
+    "coquettefashion",
+    "coquetteinspo",
+    "coquettelifestyle",
+    "coquetteroom",
+    "whatiscoquette",
+    "coquettes",
+    "coquettish",
+    "coquettegirl",
+    "coquetteera",
+    "coquetteenergy",
+    "coquettefit",
+    "coquetteroutine",
+    "coquettemakeup",
+    "coquettehair",
+    "coquetteoutfit",
+    "coquetteaesthetics",
+    "coquettecoreaesthetic",
+    "coquettevibe",
+    "coquetteclothing",
+    "coquettewardrobe",
+    "coquettediaries",
+    "coquetteguide",
+    "coquettetips",
+    "coquettelife",
+    "coquettemood",
+    "coquettestyleinspo",
+    "coquettefits",
+    "coquettelooks",
+    "coquetteaestheticstyle",
+    "coquetteaestheticvibes",
+    "coquettecorevibes",
+    "coquettecorestyle",
+    "coquetteaestheticedit",
+    "coquettecoreedit",
+    "coquettetokedit",
+    "coquetteaesthetictok",
+    "coquettecoretok",
+    "coquetteaestheticfashion",
+    "coquettecorefashion",
+    "coquetteaestheticinspo",
+    "coquettecoreinspo",
+    "coquetteaestheticlifestyle",
+    "coquettecorelifestyle",
+    "coquetteaestheticroom",
+    "coquettecoreroom",
+    "coquette aesthetic",
+    "coquettecoreaestheticroom",
+    "coquetteaestheticoutfit",
+    "coquettecoreoutfit",
+    "coquetteaestheticmakeup",
+    "coquettecoremakeup",
+]
+
+
+
+
+darkacademia_hashtags = [
+    "darkacademia",
+    "darkacademiacore",
+    "darkacademiaaesthetic",
+    "darkacademiavibes",
+    "darkacademiaedit",
+    "darkacademiastyle",
+    "darkacademiatok",
+    "darkacademiatiktok",
+    "darkacademiafashion",
+    "darkacademiainspo",
+    "darkacademialifestyle",
+    "darkacademiaroom",
+    "whatisdarkacademia",
+    "darkacademias",
+    "darkacademic",
+    "darkacademiagirl",
+    "darkacademiaera",
+    "darkacademiaenergy",
+    "darkacademiafit",
+    "darkacademiaroutine",
+    "darkacademiamakeup",
+    "darkacademiahair",
+    "darkacademiaoutfit",
+    "darkacademiaaesthetics",
+    "darkacademiacoreaesthetic",
+    "darkacademiawinter",
+    "darkacademiaautumn",
+    "darkacademiabooks",
+    "darkacademialibrary",
+    "darkacademiawriting",
+    "darkacademiapoetry",
+    "darkacademiaphilosophy",
+    "darkacademiahitory",
+    "darkacademialatin",
+    "darkacademiagreek",
+    "darkacademiaarchitecture",
+    "darkacademiaart",
+    "darkacademiamuseum",
+    "darkacademiaclassics",
+    "darkacademialiterature",
+    "darkacademiatruth",
+    "darkacademiabeauty",
+    "darkacademiadecay",
+    "darkacademiamelancholy",
+    "darkacademiaintellectual",
+    "darkacademiascholar",
+    "darkacademiaprofessor",
+    "darkacademiastudent",
+    "darkacademiauniversity",
+    "darkacademiacollege",
+    "darkacademiabrown",
+    "darkacademiabeige",
+    "darkacademiacream",
+    "darkacademianavy",
+    "darkacademiaburgundy",
+    "darkacademiaplaid",
+    "darkacademiatweed",
+    "darkacademiacorduroy",
+    "darkacademialeather",
+    "darkacademialace",
+    "darkacademiasilk",
+    "darkacademiavelvet",
+    "darkacademiawool",
+    "darkacademiacashmere",
+    "darkacademiatrench",
+    "darkacademiapeacoat",
+    "darkacademiaboots",
+    "darkacademialoafer",
+    "darkacademiabrogue",
+    "darkacademiacoffee",
+    "darkacademiatea",
+    "darkacademiaredwine",
+    "darkacademiascotch",
+    "darkacademiadecanter",
+    "darkacademiatypewriter",
+    "darkacademiaquill",
+    "darkacademiaseal",
+    "darkacademiacandle",
+    "darkacademiadesk",
+    "darkacademialamp",
+    "darkacademiaglobe",
+    "darkacademiamap",
+    "darkacademiacompas",
+    "darkacademiatelescope",
+    "darkacademiamicroscope",
+    "darkacademiabust",
+    "darkacademiastatue",
+    "darkacademiapainting",
+    "darkacademiasketch",
+    "darkacademiadiary",
+    "darkacademialetter",
+    "darkacademiapostcard",
+    "darkacademiastamp",
+    "darkacademiafilm",
+    "darkacademiabw",
+    "darkacademiasepia",
+    "darkacademiashadow",
+    "darkacademiastorm",
+    "darkacademiarain",
+    "darkacademiafog",
+    "darkacademiacastle",
+    "darkacademiacathedral",
+    "darkacademiacrypt",
+    "darkacademiacloister",
+    "darkacademiagarden",
+    "darkacademiacourtyard",
+    "darkacademiastaircase",
+    "darkacademiahallway",
+    "darkacademiawindow",
+    "darkacademiadormer",
+    "darkacademiatower",
+    "darkacademiasecretpassage",
+    "darkacademiabookshelf",
+    "darkacademiabookcase",
+    "darkacademiastudy",
+    "darkacademiaden",
+    "darkacademiastudy",
+    "darkacademialibraryaesthetic",
+]
+
+
+
+oldmoney_hashtags = [
+    "oldmoney",
+    "oldmoneycore",
+    "oldmoneyaesthetic",
+    "oldmoneyvibes",
+    "oldmoneyedit",
+    "oldmoneystyle",
+    "oldmoneytok",
+    "oldmoneytiktok",
+    "oldmoneyfashion",
+    "oldmoneyinspo",
+    "oldmoneylifestyle",
+    "oldmoneyroom",
+    "whatisoldmoney",
+    "oldmoneys",
+    "oldmoneyy",
+    "oldmoneyie",
+    "oldmoneyera",
+    "oldmoneyenergy",
+    "oldmoneyfit",
+    "oldmoneyroutine",
+    "oldmoneymakeup",
+    "oldmoneyhair",
+    "oldmoneyoutfit",
+    "oldmoneyaesthetics",
+    "oldmoneycoreaesthetic",
+    "oldmoneyvibe",
+    "oldmoneyclothing",
+    "oldmoneywardrobe",
+        "oldmoneyvibe",
+    "oldmoneyclothing",
+    "oldmoneywardrobe",
+    "oldmoneydiaries",
+    "oldmoneyguide",
+    "oldmoneytips",
+    "oldmoneylife",
+    "oldmoneymood",
+    "oldmoneystyleinspo",
+    "oldmoneyfits",
+    "oldmoneylooks",
+    "oldmoneyaestheticstyle",
+    "oldmoneyaestheticvibes",
+    "oldmoneycorevibes",
+    "oldmoneycorestyle",
+    "oldmoneyaestheticedit",
+    "oldmoneycoreedit",
+    "oldmoneytokedit",
+    "oldmoneyaesthetictok",
+    "oldmoneycoretok",
+    "oldmoneyaestheticfashion",
+    "oldmoneycorefashion",
+    "oldmoneyaestheticinspo",
+    "oldmoneycoreinspo",
+    "oldmoneyaestheticlifestyle",
+    "oldmoneycorelifestyle",
+    "oldmoneyaestheticroom",
+    "oldmoneycoreroom",
+    "old money",
+    "oldmoneyaestheticroom",
+    "oldmoneyaestheticoutfit",
+    "oldmoneycoreoutfit",
+    "oldmoneyaestheticmakeup",
+    "oldmoneycoremakeup",
+    "oldmoneyoutfitideas",
+    "oldmoneywardrobeessentials",
+    "oldmoneystyleguide",
+    "oldmoneyclassic",
+    "oldmoneytimeless",
+    "oldmoneyelegance",
+    "oldmoneysophistication",
+    "oldmoneyluxury",
+    "oldmoneyquietluxury",
+    "oldmoneywealth",
+    "oldmoneyheritage",
+    "oldmoneytradition",
+    "oldmoneyconservative",
+    "oldmoneypreppy",
+    "oldmoneyivy",
+    "oldmoneynewengland",
+    "oldmoneyeastcoast",
+    "oldmoneyhamptons",
+    "oldmoneynantucket",
+    "oldmoneycape",
+    "oldmoneygreenwich",
+    "oldmoneygreenwichct",
+    "oldmoneywestchester",
+    "oldmoneyconnecticut",
+    "oldmoneynewyork",
+    "oldmoneyboston",
+    "oldmoneyphiladelphia",
+    "oldmoneylondon",
+    "oldmoneyparis",
+    "oldmoneygeneva",
+    "oldmoneymonaco",
+    "oldmoneygstaad",
+    "oldmoneyaspend",
+    "oldmoneypalmbeach",
+    "oldmoneysaratoga",
+    "oldmoneynyc",
+    "oldmoneyupperclass",
+    "oldmoneyoldmoney",
+]
+
+
+
+
+y2k_hashtags = [
+    "y2k",
+    "y2kcore",
+    "y2kaesthetic",
+    "y2kvibes",
+    "y2kedit",
+    "y2kstyle",
+    "y2ktok",
+    "y2ktiktok",
+    "y2kfashion",
+    "y2kinspo",
+    "y2klifestyle",
+    "y2kroom",
+    "whatisy2k",
+    "y2ks",
+    "y2kgirl",
+    "y2kboy",
+    "y2kera",
+    "y2kenergy",
+    "y2kfit",
+    "y2kroutine",
+    "y2kmakeup",
+    "y2khair",
+    "y2koutfit",
+    "y2kaesthetics",
+    "y2kcoreaesthetic",
+    "y2kvibe",
+    "y2kclothing",
+    "y2kwardrobe",
+    "y2kdiaries",
+    "y2kguide",
+    "y2ktips",
+    "y2klife",
+    "y2kmood",
+    "y2kstyleinspo",
+    "y2kfits",
+    "y2klooks",
+    "y2kaestheticstyle",
+    "y2kaestheticvibes",
+    "y2kcorevibes",
+    "y2kcorestyle",
+    "y2kaestheticedit",
+    "y2kcoreedit",
+    "y2ktokedit",
+    "y2kaesthetictok",
+    "y2kcoretok",
+    "y2kaestheticfashion",
+    "y2kcorefashion",
+    "y2kaestheticinspo",
+    "y2kcoreinspo",
+    "y2kaestheticlifestyle",
+    "y2kcorelifestyle",
+    "y2kaestheticroom",
+    "y2kcoreroom",
+    "y2k2000s",
+    "2000saesthetic",
+    "2000score",
+    "2000svibes",
+    "2000sfashion",
+    "2000sstyle",
+    "2000soutfit",
+    "2000smakeup",
+    "2000shair",
+    "2000stech",
+    "2000sdigital",
+    "2000smusic",
+    "2000spop",
+    "2000snostalgia",
+    "y2kthrowback",
+    "y2kretro",
+    "y2kcyber",
+    "y2kfuturistic",
+    "y2ktech",
+    "y2kgadget",
+    "y2kcomputer",
+    "y2kdigital",
+    "y2kchrome",
+    "y2kmetallic",
+    "y2kbutterfly",
+    "y2kbutterflyclips",
+    "y2kclawclips",
+    "y2kplatform",
+    "y2kflared",
+    "y2klowrise",
+    "y2kvelour",
+    "y2kjuicy",
+    "y2kvonDutch",
+    "y2kEdHardy",
+    "y2kBabyPhat",
+    "y2kRocawear",
+    "y2kFubu",
+    "y2kSeanJohn",
+    "y2kEtnies",
+    "y2kOsiris",
+    "y2kDCshoes",
+    "y2kQuiksilver",
+    "y2kBillabong",
+    "y2kRoxy",
+    "y2kLimitedToo",
+    "y2kDelias",
+    "y2kGadzooks",
+    "y2kHotTopic",
+    "y2kSpencers",
+    "y2kLimeWire",
+    "y2kNapster",
+    "y2kAIM",
+    "y2kMSN",
+    "y2kMySpace",
+    "y2kLiveJournal",
+    "y2kXanga",
+    "y2kNeopets",
+    "y2kWebkinz",
+    "y2kClubPenguin",
+    "y2kTamagotchi",
+    "y2kGameBoy",
+    "y2kNintendoDS",
+    "y2kPlayStation2",
+    "y2kXbox",
+    "y2kiPod",
+    "y2kiPodNano",
+    "y2kiPodShuffle",
+    "y2kZune",
+    "y2kCDplayer",
+    "y2kboombox",
+    "y2kradio",
+    "y2kcassette",
+    "y2kVHS",
+    "y2kDVD",
+    "y2kblockbuster",
+    "y2khollister",
+    "y2kabercrombie",
+    "y2kamericanEagle",
+    "y2kAeropostale",
+    "y2kPacSun",
+    "y2kZumiez",
+    "y2kTillys",
+]
+
+
+
+
 
 
 # ============================================================
@@ -67,14 +492,14 @@ ARQUIVO_SAIDA = "guy.csv"
 # ============================================================
 VIDEOS_POR_HASHTAG = 280
 MAX_SCROLLS = 50
-SCROLLS_SEM_NOVOS_PARA_PARAR = 12  # Aumentado de 8 para 12 (mais paciência)
+SCROLLS_SEM_NOVOS_PARA_PARAR = 8  # Aumentado de 8 para 12 (mais paciência)
 MIN_VIDEOS_PARA_AUTO_SKIP = 30
 
 # 🔧 TEMPOS AJUSTADOS PARA CONEXÃO LENTA
-TEMPO_ESPERA_VIDEO = 30  # Aumentado de 15 para 30 segundos
+TEMPO_ESPERA_VIDEO =15  # Aumentado de 15 para 30 segundos
 TEMPO_ESPERA_HASHTAG = 15  # Novo: tempo para carregar página da hashtag
-TEMPO_ENTRE_SCROLLS = (4, 7)  # Aumentado de (2,4) para (4,7) segundos
-TEMPO_ENTRE_VIDEOS = (6, 10)  # Aumentado de (4,6) para (6,10) segundos
+TEMPO_ENTRE_SCROLLS = (2, 4)  # Aumentado de (2,4) para (4,7) segundos
+TEMPO_ENTRE_VIDEOS = (4, 6)  # Aumentado de (4,6) para (6,10) segundos
 TENTATIVAS_REFRESH = 3  # Aumentado de 2 para 3 tentativas
 
 # Tempo extra após scroll para garantir carregamento
