@@ -22,14 +22,13 @@ except ImportError:
 # 🔧 CONFIGURAÇÕES QUE VOCÊ MUDA A CADA EXECUÇÃO
 # ============================================================
 
-NOME_DO_GRUPO = "altgirl"
-HASHTAGS_DO_GRUPO = ['altgirl','altgirl','altgirlvibes','altgirledit','altgirlstyle','altgirltok','altgirlaesthetic','altgirlgirl','altgirlfashion','altgirlinspo','altgirllifestyle','altgirlroom','whatisaltgirl','AltGirl'
+NOME_DO_GRUPO = "brat"
+HASHTAGS_DO_GRUPO = ['brat','brat','bratvibes','bratedit','bratstyle','brattok','brataesthetic','bratgirl','bratfashion','bratinspo ,   bratlifestyle   ,   bratroom    ,   whatisbrat  ,   Brat'
 
                 ]
 
-ARQUIVO_SAIDA = "altgirl.csv"
+ARQUIVO_SAIDA = "liminalspace.csv"
 
-#'shoujogirl','shoujogirl','shoujogirlvibes','shoujogirledit','shoujogirlstyle','shoujogirltok','shoujogirlaesthetic','shoujogirlgirl','shoujogirlfashion','shoujogirlinspo','shoujogirllifestyle','shoujogirlroom','whatisshoujogirl','ShoujoGirl'
 #'thoughtdaughter','thoughtdaughter','thoughtdaughtervibes','thoughtdaughteredit','thoughtdaughterstyle','thoughtdaughtermtok','thoughtdaughteraesthetic','thoughtdaughtergirl','thoughtdaughterfashion','thoughtdaughterinspo','thoughtdaughterlifestyle','thoughtdaughterroom','whatisthoughtdaughter','ThoughtDaughter'
 #'lightacademia','lightacademia','lightacademiavibes','lightacademiaedit','lightacademiastyle','lightacademiatok','lightacademiaaesthetic','lightacademiagirl','lightacademiafashion','lightacademiainspo','lightacademialifestyle','lightacademiaroom','whatislightacademia','LightAcademia'
 #'brat','brat','bratvibes','bratedit','bratstyle','brattok','brataesthetic','bratgirl','bratfashion','bratinspo ,   bratlifestyle   ,   bratroom    ,   whatisbrat  ,   Brat'

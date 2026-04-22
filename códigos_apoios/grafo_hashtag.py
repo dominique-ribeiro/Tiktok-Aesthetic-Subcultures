@@ -6,20 +6,23 @@ import csv
 from collections import defaultdict
 from itertools import combinations
 
+
+#add lista de hashtags ao lado!!!!
+
 # --- Configurações ---
 FOLDER_PATH = '/home/hugo/materias/MC859/Tiktok-Aesthetic-Subcultures/data_2' 
-OUTPUT_EDGES = 'edges_list.csv'
-OUTPUT_NODES = 'nodes_list.csv'
+OUTPUT_EDGES = 'edges_20-04.csv'
+OUTPUT_NODES = 'nodes_20-04.csv'
 
 # Sua lista de exclusão estendida
 EXCLUDE_TAGS = {
     'fyp', 'aesthetic', 'edit', 'viral', 'foryou', 'foryoupage', 'core',
-    'fyppppppppppppppppppppppp', 'fy', 'capcut', 'fypviral', 'moodboard', 'pinterest', 'vibes',
+    'fyppppppppppppppppppppppp', 'fy', 'capcut', 'fypviral', 'vibes',
     'vibe', 'aestheticvideos', 'xyzbca', 'fypage', 'aestheticedits', 'tiktok', 
     'targetaudience', 'edits', 'fypp', 'aestheticedit', 'asthetic', 'fyy', 
     'foryoupag', 'repost', 'fyppp', 'viraltiktok', 'xybca', 'fyyyyyyyyyyyyyyyy',
     'fup', 'vaiprofycaramba', 'fu', 'paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii', 'parati', 
-    'fouryou', 'aestetic', 'corecore', 'fashion', 'dreamcore', 'mecore', 'nature', 'fashion', 'outfit', 
+    'fouryou', 'aestetic'
 }
 
 def process_massive_graph():
@@ -78,7 +81,7 @@ def process_massive_graph():
         for tag, videos in tag_to_videos.items():
             # Limite de segurança: se uma tag aparece em mais de 1750 vídeos (mesmo pós filtro)
             # ela pode gerar 500k arestas sozinha. Vamos monitorar isso.
-            if len(videos) > 1500: 
+            if len(videos) > 4000: 
                 print(f"Aviso: Tag #{tag} é muito comum ({len(videos)} vídeos). Ignorando para evitar explosão de dados.")
                 continue
                 
